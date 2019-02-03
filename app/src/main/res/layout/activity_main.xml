@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <Button android:visibility="invisible"
+        android:id="@+id/btnSendBroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Broadcast"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn On/Off Network Connection for Broadcast Receiver"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="132dp"  android:textSize="20sp"/>
+
+
+</android.support.constraint.ConstraintLayout>
